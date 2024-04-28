@@ -1,0 +1,92 @@
+
+
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./img/lieferservice.png" type="image/png">
+    <title>Lieferando</title>
+    <link rel="stylesheet" href="style.css" type="text/css">
+    <link rel="stylesheet" href="res.style.css" type="text/css">
+    <link rel="stylesheet" href="" type="text/css">
+</head>
+
+
+
+<body onload="load()">
+
+    <div class="header">
+
+        <div class="secondheader">
+                <div class="emblem"><img src="img/lieferservice.png">
+                    <div class="name2"><span>Food<br>Delivery</span></div>
+                </div>
+
+                <div class="sitename"><b>Speise Karte</b></div>
+
+                <div class="options"><img onclick="openBasket()" src="img/bag2.png"></div>
+                <div class="hiddendiv"></div>
+        </div>
+
+        <div class="spbtwncontainer"> 
+            <div class="secondcontainer">
+
+                <div class="restaurantimg"><img src="img/header.jpg"></div>
+
+                <div class="restaurantdata">
+
+                    <div class="splitnamebutton">
+
+                        <div class="restaurantname">
+                            <h1>Yummi Saku</h1>
+                        </div>
+
+                        <div class="restaurantinfolike">
+                            <div class="infolike"><img src="img/info.png"></div>
+                            <div class="infolike"><img id="hearth" onclick="switchcolor()" src="img/herz.png"></div>
+                        </div>
+                    </div>
+
+                    <div class="evaluation">
+
+                        <div class="star">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/star.png">
+                            <img src="img/halfstar.png">
+                        </div>
+                        <div class="howmany">183 Bewertungen</div>
+
+                    </div>
+
+                    <div class="cardsettings">
+                        <img src="img/suche.png">
+                        <div class="navigation"><a href="#vorspeisen"><span>Vorspeisen</span></a></div>
+                        <div class="navigation"><a href="#nudelgerichte"><span>Nudel</span></a></div>
+                        <div class="navigation"><a href="#reisgerichte"><span>Reis</span></a></div>
+                        <div class="navigation"><a href="#suppen"><span>Suppen</span></a></div>
+                        <div class="navigation"><a href="#sushis"><span>Suhsi</span></a></div>
+                        <div class="navigation"><a href="#sushibox"><span>Sushibox</span></a></div>
+                    </div>
+
+                </div>
+
+                <div class="foodcontainer" id="foodcontainer"></div>
+                
+            </div>
+            <div class="shoppingcardcontain slideOut">
+            <div class="shoppingcard" id="shoppingcard"></div>
+            </div>
+        </div> 
+    </div>
+
+    <script src="array.js"></script>
+    <script src="script.js"></script>
+
+</body>
+
+</html>

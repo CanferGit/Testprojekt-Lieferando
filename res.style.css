@@ -1,0 +1,1228 @@
+@media(max-width: 1900px) {
+
+    .shoppingcardcontain {
+        min-width: 410px;
+    }
+
+    .secondcontainer {
+        width: 1390px;
+    }
+
+    .foodcontainer {
+        width: 1390px;
+    }
+
+    .upbtn {
+        left: 1250px;
+    }
+}
+
+@media(max-width: 1830px) {
+
+    .secondcontainer {
+        width: 1300px;
+    }
+
+    .foodcontainer {
+        width: 1300px;
+    }
+
+    .upbtn {
+        left: 1160px;
+    }
+}
+
+@media(max-width: 1730px) {
+
+    .secondcontainer {
+        width: 1230px;
+    }
+
+    .foodcontainer {
+        width: 1230px;
+    }
+
+    .upbtn {
+        left: 1140px;
+    }
+}
+
+@media(max-width: 1670px) {
+
+    .secondcontainer {
+        width: 1160px;
+    }
+
+    .foodcontainer {
+        width: 1160px;
+    }
+
+    .upbtn {
+        left: 1100px;
+    }
+}
+
+@media(max-width: 1600px) {
+
+    .secondcontainer {
+        width: 1050px;
+    }
+
+    .foodsection {
+        width: 833px;
+    }
+
+    .foodcontainer {
+        width: 1050px;
+    }
+
+    .category {
+        padding-left: 135px;
+    }
+
+    .upbtn {
+        left: 988px;
+    }
+
+    .upbtn img {
+        height: 33px;
+        width: 33px;
+    }
+}
+
+@media(max-width: 1470px) {
+
+    .secondcontainer {
+        width: 975px;
+    }
+
+    .restaurantimg img {
+        height: 220px;
+    }
+
+    .splitnamebutton {
+        width: 825px;
+    }
+
+    .evaluation {
+        width: 825px;
+    }
+
+    .navigation {
+        width: 92px;
+    }
+
+    .foodsection {
+        width: 770px;
+    }
+
+    .cardsettings {
+        width: 865px;
+    }
+
+    .foodcontainer {
+        width: 975px;
+    }
+
+    .category {
+        padding-left: 205px;
+    }
+
+    .upbtn {
+        left: 912px;
+    }
+
+    .upbtn img {
+        height: 33px;
+        width: 33px;
+    }
+}
+
+@media(max-width: 1400px) {
+
+    .dvwith {
+        width: 305px;
+    }
+
+    .cardheader {
+        font-size: 28px;
+    }
+
+    .delivery {
+        font-size: 18px;
+    }
+
+    .delivery2 {
+        font-size: 15px;
+    }
+
+    .bagimg {
+        padding-top: 40px;
+    }
+
+    .bagimg img {
+        height: 45px;
+        width: 45px;
+    }
+
+    .cardcontent2 {
+        font-size: 16px;
+        max-width: 209px;
+    }
+
+    .splitnamebutton {
+        padding-top: 0px;
+    }
+
+    .secondcontainer {
+        width: 930px;
+    }
+
+    .foodcontainer {
+        width: 930px;
+    }
+
+    .restaurantname {
+        font-size: 15px;
+    }
+
+    .infolike img {
+        height: 33px;
+        width: 33px;
+    }
+
+    .star img {
+        height: 13px;
+        width: 13px;
+    }
+
+    .howmany {
+        font-size: 15px;
+    }
+
+    .cardsettings {
+        padding-top: 15px;
+        padding-bottom: 15px;
+        width: 825px;
+    }
+
+    .cardsettings img {
+        height: 25px;
+        width: 25px;
+        margin-right: 15px;
+    }
+
+    .navigation span {
+        font-size: 15px;
+    }
+
+    .category {
+        padding-top: 5px;
+    }
+
+    .foodname {
+        font-size: 18px;
+    }
+
+    .foodoption {
+        padding-top: 7px;
+        font-size: 14px;
+    }
+
+    .price {
+        display: flex;
+        padding-top: 7px;
+        padding-left: 20px;
+        padding-bottom: 10px;
+        font-weight: bold;
+        font-size: 21px;
+    }
+
+    .foodimg img {
+        height: 90px;
+        width: 90px;
+    }
+
+    .foodplusbtn img {
+        height: 33px;
+        width: 33px;
+    }
+
+    .foodimgbtn {
+        width: 190px;
+    }
+
+    .upbtn {
+        left: 877px;
+    }
+
+    .resultat {
+        font-size: 20px;
+    }
+
+    .resultatct {
+        width: 305px;
+        padding-bottom: 30px;
+    }
+
+    .isettings {
+        font-size: 16px;
+    }
+
+    .crowdoptions img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .crowdoptions {
+        width: 57px;
+    }
+
+    .ordernow {
+        font-size: 23px;
+        height: 40px;
+        width: 200px;
+    }
+
+    .resultprice {
+        font-size: 20px;
+    }
+
+}
+
+@media screen and (min-width: 1340px) {
+    .shoppingcardcontain {
+        display: flex;
+    }
+}
+
+@media(max-width: 1340px) {
+
+    .hiddendiv {
+        display: none;
+    }
+
+    .secondheader {
+        padding-right: 106px;
+    }
+
+    .secondcontainer {
+        width: 100%;
+    }
+
+    .foodcontainer {
+        width: 100%;
+    }
+
+    .options {
+        display: flex;
+    }
+
+    .category {
+        padding-left: 140px;
+    }
+
+    .foodsection {
+        width: 820px;
+    }
+
+    .upbtn {
+        left: 1190px;
+    }
+
+    .shoppingcardcontain {
+        height: 100vh;
+        position: fixed;
+        top: 82px;
+        right: -100%;
+        transition: right 0.8s;
+        background-color: #d9d9d9;
+    }
+
+    .shoppingcard {
+        position: fixed;
+        height: 100vh;
+        width: 385px;
+        top: 80px;
+        justify-content: start;
+        background-color: white;
+        padding-top: 30px;
+    }
+
+    .showbasket {
+        right: 0;
+    }
+
+    .slideOut {
+        right: -100%;
+    }
+
+    .category {
+        padding-left: 0px;
+        width: 808px;
+    }
+}
+
+@media(max-width: 1280px) {
+    .upbtn {
+        left: 1160px;
+    }
+}
+
+@media(max-width: 1240px) {
+    .upbtn {
+        left: 1115px;
+    }
+}
+
+@media(max-width: 1200px) {
+    .upbtn {
+        left: 1080px;
+    }
+}
+
+@media(max-width: 1150px) {
+    .upbtn {
+        left: 1000px;
+    }
+}
+
+@media(max-width: 1115px) {
+    .upbtn {
+        left: 980px;
+    }
+}
+
+@media(max-width: 1050px) {
+    .upbtn {
+        left: 960px;
+    }
+}
+
+@media(max-width: 1010px) {
+    .upbtn {
+        left: 930px;
+    }
+}
+
+@media(max-width: 950px) {
+    .upbtn {
+        left: 890px;
+    }
+}
+
+@media(max-width: 905px) {
+    .upbtn {
+        left: 855px;
+    }
+}
+
+@media(max-width: 900px) {
+
+    .restaurantimg img {
+        height: 140px;
+        width: 100%;
+    }
+
+    .name2 {
+        font-size: 15px;
+    }
+
+    .emblem img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .secondheader {
+        height: 22px;
+    }
+
+    .restaurantname {
+        font-size: 12px;
+    }
+
+    .splitnamebutton {
+        width: 750px;
+        height: 50px;
+    }
+
+    .infolike img {
+        height: 29px;
+        width: 29px;
+    }
+
+    .evaluation {
+        width: 750px;
+    }
+
+    .cardsettings {
+        padding-top: 12px;
+        padding-bottom: 12px;
+        width: 750px;
+    }
+
+    h2 {
+        font-size: 21px;
+    }
+
+    .foodsection {
+        width: 740px;
+    }
+
+    .category {
+        width: 660px;
+        padding-bottom: 10px;
+    }
+
+    .price {
+        padding-bottom: 7px;
+        font-size: 19px;
+    }
+
+    .foodimg img {
+        height: 80px;
+        width: 80px;
+    }
+
+    .foodplusbtn img {
+        height: 30px;
+        width: 30px;
+    }
+
+    .foodsection {
+        margin-top: 49px;
+        width: 670px;
+    }
+
+    .upbtn {
+        left: 805px;
+    }
+
+    .shoppingcard {
+        width: 355px;
+        top: 66px;
+    }
+
+    .shoppingcardcontain {
+        top: 66px;
+    }
+
+    .cardheader {
+        font-size: 24px;
+        padding-top: 10px;
+    }
+
+    .dvwith {
+        width: 280px;
+    }
+
+    .delivery {
+        font-size: 15px;
+    }
+
+    .deliverysettingsleft {
+        padding: 5px;
+        padding-right: 19px;
+    }
+
+    .bagimg img {
+        height: 40px;
+        width: 40px;
+    }
+
+    .bagimg {
+        padding-top: 10px;
+    }
+
+    .cardcontent2 {
+        font-size: 14px;
+        max-width: 193px;
+    }
+
+    .isettings {
+        font-size: 15px;
+    }
+
+    .crowdoptions img {
+        height: 22px;
+        width: 22px;
+    }
+
+    .crowdoptions {
+        width: 50px;
+    }
+
+    .resultatct {
+        width: 282px;
+    }
+
+    .resultat {
+        font-size: 19px;
+    }
+
+    .resultprice {
+        font-size: 19px;
+    }
+}
+
+@media(max-width: 830px) {
+    .upbtn {
+        left: 755px;
+    }
+}
+
+@media(max-width: 800px) {
+
+    .sitename {
+        font-size: 18px;
+    }
+
+    .splitnamebutton {
+        width: 635px;
+    }
+
+    .restaurantname {
+        font-size: 10px;
+    }
+
+    .evaluation {
+        width: 635px;
+    }
+
+    .cardsettings {
+        width: 630px;
+    }
+
+    h2 {
+        font-size: 18px;
+    }
+
+    .foodsection {
+        width: 580px;
+    }
+
+    .foodname {
+        font-size: 16px;
+    }
+
+    .price {
+        font-size: 18px;
+    }
+
+    .foodimg img {
+        height: 75px;
+        width: 75px;
+    }
+
+    .foodimgbtn {
+        width: 160px;
+    }
+
+    .category {
+        width: 570px;
+        padding-bottom: 11px;
+    }
+
+    .upbtn img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .upbtn {
+        left: 715px;
+    }
+}
+
+@media(max-width: 800px) {
+
+    .upbtn img {
+        height: 26px;
+        width: 26px;
+    }
+
+    .upbtn {
+        left: 675px;
+    }
+}
+
+@media(max-width: 700px) {
+
+    .restaurantimg img {
+        height: 105px;
+    }
+
+    .splitnamebutton {
+        width: 500px;
+    }
+
+    .restaurantname {
+        font-size: 9px;
+    }
+
+    .infolike img {
+        height: 24px;
+        width: 24px;
+    }
+
+    .restaurantinfolike {
+        width: 90px;
+    }
+
+    .evaluation {
+        width: 500px;
+    }
+
+    .star img {
+        height: 9px;
+        width: 9px;
+    }
+
+    .howmany {
+        font-size: 13px;
+    }
+
+    .cardsettings {
+        width: 500px;
+    }
+
+    .navigation span {
+        font-size: 14px;
+    }
+
+    .cardsettings img {
+        height: 22px;
+        width: 22px;
+    }
+
+    .foodsection {
+        width: 500px;
+    }
+
+    h2 {
+        font-size: 16px;
+    }
+
+    .category {
+        width: 495px;
+    }
+
+    .foodimg img {
+        height: 63px;
+        width: 63px;
+    }
+
+    .foodname {
+        font-size: 15px;
+    }
+
+    .foodoption {
+        padding-top: 4px;
+        font-size: 13px;
+    }
+
+    .price {
+        font-size: 17px;
+    }
+
+    .foodplusbtn img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .foodimgbtn {
+        width: 150px;
+    }
+
+    .upbtn {
+        left: 597px;
+    }
+}
+
+@media(max-width: 590px) {
+
+    .upbtn {
+        left: 545px;
+    }
+
+    .upbtn img {
+        height: 23px;
+        width: 23px;
+    }
+}
+
+@media(max-width: 560px) {
+
+    .name2 {
+        font-size: 13px;
+    }
+
+    .emblem img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .sitename {
+        font-size: 17px;
+    }
+
+    .options img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .secondheader {
+        height: 10px;
+    }
+
+    .restaurantimg img {
+        height: 77px;
+    }
+
+    .splitnamebutton {
+        width: 355px;
+        height: 40px;
+    }
+
+    .restaurantname {
+        font-size: 8px;
+    }
+
+    .infolike img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .restaurantinfolike {
+        width: 70px;
+    }
+
+    .evaluation {
+        width: 355px;
+    }
+
+    .cardsettings {
+        width: 355px;
+    }
+
+    .navigation span {
+        font-size: 12px;
+    }
+
+    .cardsettings img {
+        height: 19px;
+        width: 19px;
+        padding-top: 0px;
+        padding-bottom: 0px;
+    }
+
+    .howmany {
+        font-size: 12px;
+    }
+
+    .foodsection {
+        width: 355px;
+    }
+
+    h2 {
+        font-size: 15px;
+    }
+
+    .category {
+        width: 348px;
+    }
+
+
+    .foodname {
+        font-size: 14px;
+    }
+
+    .foodname img {
+        width: 13px;
+        height: 13px;
+    }
+
+    .price {
+        font-size: 16px;
+    }
+
+    .foodimg img {
+        height: 60px;
+        width: 60px;
+    }
+
+    .foodplusbtn {
+        height: 22px;
+        width: 22px;
+    }
+
+    .foodplusbtn img {
+        height: 22px;
+        width: 22px;
+    }
+
+    .foodimgbtn {
+        width: 100px;
+    }
+
+    .shoppingcard {
+        width: 300px;
+        top: 54px;
+    }
+
+    .shoppingcardcontain {
+        top: 53px;
+    }
+
+    .cardheader {
+        font-size: 20px;
+        padding-top: 0;
+    }
+
+    .delivery {
+        font-size: 12px;
+    }
+
+    .delivery2 {
+        font-size: 12px;
+    }
+
+    .deliveryimg {
+        height: 15px;
+        width: 15px;
+        padding-right: 10px;
+        padding-left: 5px;
+    }
+
+    .dvwith {
+        width: 250px;
+    }
+
+    .deliverysettingsright {
+        padding: 5px;
+        padding-right: 0;
+        margin-bottom: 10px;
+    }
+
+    .dvwtih2 {
+        width: 135px;
+    }
+
+    .bagimg img {
+        height: 32px;
+        width: 32px;
+        padding-top: 0;
+    }
+
+    .cardcontent2 {
+        font-size: 12px;
+        max-width: 176px;
+        padding-top: 13px;
+    }
+
+    .upbtn {
+        left: 485px;
+    }
+
+    .upbtn img {
+        height: 20px;
+        width: 20px;
+    }
+
+
+    .isettings {
+        font-size: 13px;
+    }
+
+    .crowdoptions img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .crowdoptions {
+        width: 45px;
+    }
+
+    .resultat {
+        font-size: 18px;
+    }
+
+    .resultprice {
+        font-size: 18px;
+    }
+
+    .resultatct {
+        width: 250px;
+    }
+
+    .ordernow {
+        font-size: 21px;
+        height: 36px;
+        width: 185px;
+    }
+}
+
+@media(max-width: 506px) {
+    .upbtn {
+        left: 455px;
+    }
+}
+
+@media(max-width: 473px) {
+    .upbtn {
+        left: 425px;
+    }
+}
+
+@media(max-width: 443px) {
+
+    .upbtn {
+        left: 400px;
+    }
+
+    .secondheader {
+        padding-right: 70px;
+    }
+
+    .emblem img {
+        height: 25px;
+        width: 25px;
+    }
+
+    .name2 {
+        font-size: 12px;
+        padding-left: 8px;
+    }
+
+    .options img {
+        height: 23px;
+        width: 23px;
+    }
+}
+
+@media(max-width: 427px) {
+
+    .emblem img {
+        height: 23px;
+        width: 23px;
+    }
+
+    .name2 {
+        font-size: 10px;
+        padding-left: 3px;
+    }
+
+    .sitename {
+        font-size: 16px;
+    }
+
+    .options img {
+        height: 22px;
+        width: 22px;
+    }
+
+    .restaurantname {
+        font-size: 7px;
+    }
+
+    .splitnamebutton {
+        width: 270px;
+        height: 33px;
+        padding-top: 3px;
+    }
+
+    .star img {
+        height: 7px;
+        width: 7px;
+    }
+
+    .howmany {
+        font-size: 10px;
+    }
+
+    .evaluation {
+        width: 270px;
+    }
+
+    .infolike img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .restaurantinfolike {
+        width: 55px;
+    }
+
+    .cardsettings {
+        width: 270px;
+    }
+
+    .cardsettings img {
+        height: 16px;
+        width: 16px;
+        margin-right: 9px;
+    }
+
+    .navigation span {
+        font-size: 10px;
+    }
+
+    .navigation {
+        width: 50px;
+        max-width: 50px;
+    }
+
+    .foodsection {
+        width: 275px;
+    }
+
+    h2 {
+        font-size: 13px;
+    }
+
+    .category {
+        width: 270px;
+    }
+
+    .foodname {
+        font-size: 12px;
+        padding-left: 15px;
+    }
+
+    .foodoption {
+        padding-left: 15px;
+        font-size: 11px;
+    }
+
+    .price {
+        font-size: 13px;
+        padding-left: 15px;
+    }
+
+    .foodimgbtn {
+        padding-right: 7px;
+        padding-top: 6px;
+        padding-bottom: 6px;
+    }
+
+    .foodplusbtn img {
+        height: 20px;
+        width: 20px;
+    }
+
+    .upbtn {
+        left: 355px;
+    }
+
+    .shoppingcard {
+        width: 225px;
+    }
+
+    .cardheader {
+        font-size: 17px;
+    }
+
+    .dvwith {
+        width: 200px;
+    }
+
+    .delivery {
+        font-size: 10px;
+    }
+
+    .delivery2 {
+        font-size: 9px;
+    }
+
+    .deliveryimg {
+        height: 14px;
+        width: 14px;
+        padding-right: 8px;
+        padding-left: 6px;
+    }
+
+    .bagimg img {
+        height: 28px;
+        width: 28px;
+    }
+
+    .cardcontent2 {
+        font-size: 10px;
+        max-width: 125px;
+        padding-top: 10px;
+    }
+
+    .deliverysettingsright {
+        padding: 4px;
+        padding-right: 0;
+        margin-bottom: 3px;
+    }
+
+    .showbasket {
+        right: -20px;
+    }
+
+    .slideOut {
+        right: -115%;
+    }
+
+    .upbtn img {
+        height: 18px;
+        width: 18px;
+    }
+
+    .upbtn {
+        left: 365px;
+    }
+
+    .shoppingcardcontain {
+        width: 105%;
+    }
+
+    .cardheader {
+        padding-bottom: 18px;
+    }
+
+    .isettings {
+        font-size: 11px;
+    }
+
+    .crowdoptions img {
+        height: 15px;
+        width: 15px;
+    }
+
+    .crowdoptions {
+        width: 35px;
+    }
+
+    .resultat {
+        font-size: 15px;
+    }
+
+    .resultprice {
+        font-size: 15px;
+    }
+
+    .resultatct {
+        width: 202px;
+        padding-top: 25px;
+    }
+
+    .ordernow {
+        font-size: 17px;
+        height: 28px;
+        width: 145px;
+    }
+}
+
+@media(max-width: 391px) {
+    .upbtn {
+        left: 353px;
+    }
+}
+
+@media(max-width: 370px) {
+    .upbtn {
+        left: 338px;
+    }
+}

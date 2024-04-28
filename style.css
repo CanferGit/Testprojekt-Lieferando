@@ -1,0 +1,558 @@
+html {
+    scroll-behavior: smooth;
+    scrollbar-width: none;
+}
+
+body {
+    margin: 0;
+}
+
+.header {
+    display: flex;
+    flex-direction: column;
+    max-width: 100%;
+}
+
+.secondheader {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 100%;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 45px;
+    padding-right: 45px;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 8px rgba(41, 29, 29, 0.2);
+    z-index: 1;
+}
+
+.emblem {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.emblem img {
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.name2 {
+    padding-left: 12px;
+    font-size: 17px;
+    color: orange;
+}
+
+.sitename {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 20px;
+}
+
+.options {
+    display: none;
+    justify-content: center;
+    align-items: center;
+}
+
+.options img {
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    transition: all 0.2s ease;
+}
+
+.options img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.spbtwncontainer {
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+}
+
+.secondcontainer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 1470px;
+    max-width: 1470px;
+}
+
+.restaurantimg {
+    display: flex;
+}
+
+.restaurantimg img {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    object-fit: cover;
+    height: 320px;
+    width: 1470px;
+    padding-top: 3px;
+}
+
+.restaurantdata {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+    box-shadow: 0 2px 8px rgba(41, 29, 29, 0.2);
+}
+
+.splitnamebutton {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 960px;
+    padding-top: 10px;
+}
+
+.restaurantname {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.restaurantinfolike {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 120px;
+}
+
+.infolike {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.infolike img {
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+    transition: all 0.2s ease;
+}
+
+.infolike img:hover {
+    transform: scale(1.15);
+    cursor: pointer;
+}
+
+.evaluation {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 960px;
+    max-width: 960px;
+}
+
+.star {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+}
+
+.star img {
+    object-fit: cover;
+    height: 17px;
+    width: 17px;
+}
+
+.howmany {
+    font-size: 17px;
+    text-decoration: underline;
+    color: rgb(105, 104, 104)
+}
+
+.howmany:hover {
+    color: rgba(22, 22, 22, 0.342);
+    cursor: pointer;
+}
+
+.cardcontainer {
+    display: flex;
+    width: 100%;
+}
+
+.cardsettings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 960px;
+    width: 960px;
+    padding-top: 50px;
+    padding-bottom: 30px;
+}
+
+.cardsettings img {
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    margin-right: -35px;
+    cursor: pointer;
+}
+
+.navigation {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 120px;
+    max-width: 120px;
+}
+
+.navigation a {
+    text-decoration: none;
+}
+
+.navigation span {
+    font-size: 17px;
+    font-weight: bold;
+    color: rgb(97, 97, 97);
+}
+
+.navigation:hover {
+    border-radius: 10px;
+    background-color: rgb(241, 241, 241);
+    cursor: pointer;
+}
+
+
+.foodcontainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1470px;
+    width: 1470px;
+    padding-bottom: 50px;
+    background-color: whitesmoke;
+}
+
+.foodsection {
+    display: flex;
+    justify-content: space-between;
+    background-color: white;
+    margin-top: 60px;
+    width: 960px;
+    max-width: 960px;
+    border-radius: 15px;
+}
+
+.pdbfoodsection {
+    margin-bottom: 60px;
+}
+
+.foodname {
+    display: flex;
+    font-weight: bold;
+    padding-top: 10px;
+    padding-left: 20px;
+    font-size: 20px;
+}
+
+.foodname img {
+    object-fit: cover;
+    width: 18px;
+    height: 18px;
+    padding-left: 10px;
+}
+
+.foodoption {
+    display: flex;
+    padding-top: 14px;
+    padding-left: 20px;
+}
+
+.price {
+    display: flex;
+    padding-top: 14px;
+    padding-left: 20px;
+    padding-bottom: 10px;
+    font-weight: bold;
+    font-size: 23px;
+}
+
+.foodimgbtn {
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+    padding-right: 8px;
+    padding-top: 8px;
+    padding-bottom: 8px;
+}
+
+.foodimg {
+    display: flex;
+}
+
+.foodimg img {
+    object-fit: cover;
+    border-radius: 10px;
+}
+
+.foodplusbtn {
+    display: flex;
+    object-fit: cover;
+    height: 40px;
+    width: 40px;
+}
+
+.foodplusbtn img {
+    object-fit: cover;
+    transition: all 0.2s ease;
+}
+
+.foodplusbtn img:hover {
+    transform: scale(1.10);
+    cursor: pointer;
+}
+
+.upbtn {
+    display: none;
+    position: fixed;
+    bottom: 100px;
+    left: 1330px;
+    z-index: 100;
+}
+
+.upbtn img {
+    height: 40px;
+    width: 40px;
+}
+
+.upbtn img:hover {
+    cursor: pointer;
+}
+
+.shoppingcardcontain {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+}
+
+
+.shoppingcard {
+    position: fixed;
+    top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.cardheader {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 30px;
+    font-weight: bold;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.deliverysettings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.deliverysettingsleft {
+    border-radius: 35px;
+    background-color: white;
+    padding: 10px;
+    padding-right: 60px;
+}
+
+.deliverysettingsright {
+    background-color: rgb(221, 218, 218);
+    border-radius: 35px;
+    padding: 5px;
+    padding-right: 10px;
+    margin-bottom: 20px;
+}
+
+.dvwith {
+    width: 358px;
+}
+
+.dvwtih2 {
+    width: 140px;
+}
+
+.deliveryimg {
+    display: flex;
+    height: 20px;
+    width: 20px;
+    padding-right: 10px;
+}
+
+.deliveryimg img {
+    object-fit: cover;
+}
+
+.deliveryfont {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.delivery {
+    font-size: 20px;
+    font-weight: bold;
+}
+
+.delivery2 {
+    font-size: 15px;
+    color: rgb(100, 100, 100);
+}
+
+.bagimg {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-top: 90px;
+    height: 40px;
+    width: 40px;
+}
+
+.bagimg img {
+    object-fit: cover;
+    height: 50px;
+    width: 50px;
+}
+
+.cardcontent1 {
+    display: flex;
+    font-size: 25px;
+    font-weight: bold;
+    padding-top: 40px;
+}
+
+.cardcontent2 {
+    display: flex;
+    font-size: 17px;
+    max-width: 310px;
+    padding-top: 20px;
+    text-align: center;
+    color: rgb(189, 185, 185);
+}
+
+.category {
+    display: flex;
+    width: 960px;
+    padding-top: 50px;
+    padding-left: 10px;
+    margin-bottom: -65px;
+}
+
+.ordercardsettings {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+    padding-top: 100px;
+}
+
+.itemsettings {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding-top: 18px;
+}
+
+.isettings {
+    display: flex;
+    font-size: 17px;
+}
+
+.crowdoptions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 65px;
+}
+
+.crowdoptions img {
+    object-fit: cover;
+    height: 30px;
+    width: 30px;
+    cursor: pointer;
+    transition: all 0.2s ease;
+}
+
+.crowdoptions img:hover {
+    transform: scale(1.10);
+}
+
+.resultatct {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 330px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+
+.hiddenct {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 340px;
+}
+
+.resultat {
+    display: flex;
+    font-size: 22px;
+    justify-content: center;
+    align-items: center;
+}
+
+.resultprice {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 22px;
+}
+
+.ordernow {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 27px;
+    font-weight: bold;
+    color: rgb(54, 54, 54);
+    height: 55px;
+    width: 220px;
+    border-radius: 30px;
+    background-color: rgb(243, 144, 14);
+}
+
+.ordernow:hover {
+    cursor: pointer;
+}
+
+.ordernow::after {
+    content: "No Risk, no Fun";
+    display: none;
+    position: absolute;
+    background-color: #333;
+    color: #fff;
+    padding: 3px;
+    border-radius: 3px;
+    font-size: 12px;
+    bottom: 110%;
+    left: 75%;
+    transform: translateX(-50%);
+    white-space: nowrap;
+}
+
+.ordernow:hover::after {
+    display: block;
+}
